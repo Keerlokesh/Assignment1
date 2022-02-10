@@ -18,11 +18,13 @@ import com.football.app.entity.Team;
 import com.football.app.service.FootballService;
 
 
+/* Controller for http requests */
 @RestController
 public class HomeController {
 	
 	@Autowired
 	private FootballService service;
+	
 	
 	@RequestMapping("/")
 	public String home() {
@@ -46,24 +48,30 @@ public class HomeController {
 	}
 	
 	
-	/* team */
+	/* Endpoints */
 	
+	
+	/* team request */
+	/* addTeam post request for adding New Team into database */
 	@PostMapping("/addTeam")
 	public Team addTeam(@RequestBody Team team) {
 		
 		return service.saveTeam(team);
 	}
 	
-	@PostMapping("/team/{id}")
+	/*get request for finding team details by their id */
+	@GetMapping("/team/{id}")
 	public Team findTeamById(@PathVariable int id) {
 		return service.findTeamById(id);
 	}
 	
+	/* put request for updating team details */
 	@PutMapping("/team/update/{id}")
 	public Team updateTeam(@PathVariable int id, @RequestBody Team team) {
 		return service.updateTeam(id, team);
 	}
 	
+	/* Delete request for deleting team details  */
 	@DeleteMapping("/team/delete/{id}")
 	public String deleteTeam(@PathVariable int id) {
 		return service.deleteTeamById(id);
@@ -71,29 +79,39 @@ public class HomeController {
 	
 	
 	
-	/* player */
+	/* player request */
+	/* addPlayer post request for adding New Player into database */
 	@PostMapping("/addPlayer")
 	public Player addPlayer(@RequestBody Player player) {
 		return service.savePlayer(player);
 	}
 	
+	/*get request for finding team details by their id */
 	@GetMapping("/player/{id}")
 	public Player findPlayerById(@PathVariable int id) {
 		return service.findPlayerById(id);
 	}
 	
+	/* put request for updating player details */
 	@PutMapping("/player/update/{id}")
 	public Player updatePlayer(@PathVariable long id, @RequestBody Player player) {
 		return service.updatePlayer(id, player);
 	}
 	
+	/* Delete request for deleting player details  */
 	@DeleteMapping("/player/delete/{id}")
 	public String deletePlayer(@PathVariable int id) {
 		return service.deletePlayerById(id);
 	}
 	
+	/* Get request for showing all players */
+	@GetMapping("/players")
+	public List<Player> showPlayers(){
+		return service.getPlayers();
+	}
 	
 	
+	/* Get request for showing all teams */
 	@GetMapping("/teams")
 	public List<Team> showTeams(){
 		return service.getTeams();

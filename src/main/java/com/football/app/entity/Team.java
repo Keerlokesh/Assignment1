@@ -20,31 +20,32 @@ public class Team {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private long id;     // id for unique identity of each team
 	
 	@Column(name = "name")
-	private String name;
+	private String name;    // name for storing name of team
 	
 	@Column(name = "location")
-	private String location;
+	private String location;     // location variable for storing location of team
 	
 	@Column(name = "created_at")
-	private String created_at;
+	private String created_at;  // created_at variable for storing team creation date 
 	
 	@Column(name = "updated_at")
-	private String updated_at;
+	private String updated_at;  // updated_at variable for storing team update date
 	
+	/* joining Team table with Player table using one to many relationship */
 	@OneToMany(cascade = CascadeType.ALL)
 	@JoinColumn(name = "team_id", referencedColumnName = "id")
 	List<Player> players = new ArrayList<>();
 
-	
+	/* non-parameterized constructor */
 	public Team() {
 		
 	}
 	
 	
-	
+	/* parameterized constructor */
 	public Team(String name, String location, String created_at, String updated_at) {
 		super();
 		this.name = name;
@@ -53,6 +54,8 @@ public class Team {
 		this.updated_at = updated_at;
 	}
 
+	/* Getters and Setters methods */
+	
 	public long getTid() {
 		return id;
 	}

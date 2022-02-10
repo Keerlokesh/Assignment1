@@ -14,22 +14,41 @@ public class Player {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private long id;   // id for unique identity of each player
 	
 	@Column(name = "name")
-	private String name;
+	private String name;    // name for storing name of team
 	
 	@Column(name = "age")
-	private int age;
+	private int age;      // age for storing age of player
 	
 	@Column(name = "created_at")
-	private String created_at;
+	private String created_at;   // created_at variable for storing player creation date 
 	
 	@Column(name = "updated_at")
-	private String updated_at;
+	private String updated_at;  // updated_at variable for storing player update date
 
 	@Column(name = "team_id")
-	private long team_id;
+	private long team_id;     // team id for storing team id of player
+	
+	
+	/* non-parameterized constructor */
+	public Player() {
+		
+	}
+	
+	/* parameterized constructor */
+	public Player(String name, int age, String created_at, String updated_at,long team_id) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.created_at = created_at;
+		this.updated_at = updated_at;
+		this.team_id = team_id;
+	}
+	
+	
+	/* Getters and Setters methods */
 	
 	public long getTeam_id() {
 		return team_id;
@@ -39,18 +58,6 @@ public class Player {
 		this.team_id = team_id;
 	}
 
-	public Player() {
-		
-	}
-	
-	public Player(String name, int age, String created_at, String updated_at,long team_id) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.created_at = created_at;
-		this.updated_at = updated_at;
-		this.team_id = team_id;
-	}
 
 	public long getId() {
 		return id;
