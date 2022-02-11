@@ -9,7 +9,7 @@ This is an example of showing one to many relationship.
 ### Key features:
     - Easy to use
     - Using Restful services for http requests
-    - capable to handle multiple request simultaneously 
+    - capable to handle multiple request
     - Using MySQl database
 
 
