@@ -16,7 +16,7 @@ This is an example of showing one to many relationship.
 ### Requirements
   - Java version 11
   - SpringToolSuite4
-  - MySQl 2.8
+  - MySQl 
 
 # Get started
 
