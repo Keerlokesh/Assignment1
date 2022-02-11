@@ -3,6 +3,11 @@ Assignment 1: Java Backend
 
 Springboot application for showing Team and player one to many relationship.
 
+A team has many players (one to many)
+
+![image](https://user-images.githubusercontent.com/66743138/153664010-ec934944-4a1e-4763-9160-8890ae1d0677.png)
+
+
 ### Purpose of this application
 This is an example of showing one to many relationship.
 
