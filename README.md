@@ -138,7 +138,8 @@ This is an example of showing one to many relationship.
   
   Example of post request using Postman :
   
-        ![addTeam](https://user-images.githubusercontent.com/66743138/153648567-75fdbf26-4119-4880-804a-b0d32669908e.jpg)
+        ![addTeam](https://user-images.githubusercontent.com/66743138/153661533-23246447-0938-4ccf-8987-424f2820d239.jpg)
+
 
 
 
@@ -156,7 +157,8 @@ This is an example of showing one to many relationship.
   Example of put request :
   
   
-          ![Update_Team](https://user-images.githubusercontent.com/66743138/153660060-bae8cc46-b57e-4c84-bd56-b6b8e9a63ac5.jpg)
+          ![Update_Team](https://user-images.githubusercontent.com/66743138/153661592-75a6ef83-542a-409c-b6d6-6aa5c8c44a82.jpg)
+
 
 
 
@@ -176,7 +178,8 @@ This is an example of showing one to many relationship.
   Example of put request :
   
   
-        ![findById_Team](https://user-images.githubusercontent.com/66743138/153657604-29d5e3bb-9156-4afc-8eae-5f5f062e7300.jpg)
+        ![findById_Team](https://user-images.githubusercontent.com/66743138/153661640-f3338f47-bdb8-465e-af40-95cf40d5b9bc.jpg)
+
 
 
 
@@ -198,7 +201,11 @@ This is an example of showing one to many relationship.
   
   
   
-      ![Team_Delete](https://user-images.githubusercontent.com/66743138/153649422-357db433-4521-48e5-991a-37fdc5867cc1.jpg)
+      ![Team_Delete](https://user-images.githubusercontent.com/66743138/153661685-a684318b-abc9-4622-a328-1c69936c905b.jpg)
+
+
+
+
 
 
    #### /teams
@@ -216,7 +223,8 @@ This is an example of showing one to many relationship.
   Example of get request :
   
   
-      ![All_Teams](https://user-images.githubusercontent.com/66743138/153649963-b0b58918-ef95-4b05-b973-1d7c5f3c626e.jpg)
+      ![All_Teams](https://user-images.githubusercontent.com/66743138/153661727-b6cceca9-20ea-4b47-892e-05a5399fabda.jpg)
+
 
 
 
@@ -245,7 +253,8 @@ This is an example of showing one to many relationship.
   Example of post request using Postman :
   
   
-        ![Add_Player](https://user-images.githubusercontent.com/66743138/153650703-59668796-9ab0-4d72-87d2-01ecb4e9c4b4.jpg)
+        ![Add_Player](https://user-images.githubusercontent.com/66743138/153661748-dce9b0b5-f67c-4a4c-9afd-fe89259f4911.jpg)
+
 
 
 
@@ -265,7 +274,8 @@ This is an example of showing one to many relationship.
   Example of put request :
   
   
-          ![FindById_Player](https://user-images.githubusercontent.com/66743138/153657875-91b7a0cd-792f-4cab-9ff6-592815735f27.jpg)
+          ![FindById_Player](https://user-images.githubusercontent.com/66743138/153661801-5e23c31f-c96d-45ac-bfc2-72ac0368cea0.jpg)
+
 
   
   
@@ -286,7 +296,8 @@ This is an example of showing one to many relationship.
   Example of put request :
   
   
-        ![Update_Player](https://user-images.githubusercontent.com/66743138/153650846-2c36b38a-eb40-49e4-9228-f97a916b36b4.jpg)
+        ![Update_Player](https://user-images.githubusercontent.com/66743138/153661836-00554299-571a-4cdf-a3c8-be8909b30aa8.jpg)
+
 
 
 
@@ -308,7 +319,8 @@ This is an example of showing one to many relationship.
   
   
   
-      ![Player_Delete](https://user-images.githubusercontent.com/66743138/153651308-474c14e2-967d-4fd8-bdfd-f192ce62ce98.jpg)
+      ![Player_Delete](https://user-images.githubusercontent.com/66743138/153661866-9c2e6126-dc13-4fc0-aa81-2b3bbb8641da.jpg)
+
 
 
 
@@ -329,7 +341,8 @@ This is an example of showing one to many relationship.
   Example of get request :
   
   
-      ![All_Teams](https://user-images.githubusercontent.com/66743138/153651610-6ef9858b-c5f6-4b93-9f08-4452e5aace38.jpg)
+      ![All_Players](https://user-images.githubusercontent.com/66743138/153662005-f05be670-23c8-45fa-93d7-ea9c07f9ae63.jpg)
+
 
 
 
@@ -341,7 +354,8 @@ This is an example of showing one to many relationship.
 
 
 
-     ![Database](https://user-images.githubusercontent.com/66743138/153661239-c1385bf1-75e5-470a-841e-a0403adf112d.jpg)
+     ![Database](https://user-images.githubusercontent.com/66743138/153662033-72cb3c5b-97a1-4c63-8288-aae9ea31bb8f.jpg)
+
 
 
 
