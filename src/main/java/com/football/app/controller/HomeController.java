@@ -88,7 +88,7 @@ public class HomeController {
 	
 	/*get request for finding team details by their id */
 	@GetMapping("/player/{id}")
-	public Player findPlayerById(@PathVariable int id) {
+	public Player findPlayerById(@PathVariable long id) {
 		return service.findPlayerById(id);
 	}
 	
